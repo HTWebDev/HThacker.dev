@@ -1,15 +1,13 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import { Blob } from "../components/atoms"
+// import { Blob } from "../components/atoms"
 
 const NotFoundPage = () => (
   <Layout footer={false}>
     <div className="mt-48 flex justify-center">
-      <div className="absolute">
-        <Blob />
-      </div>
-      <h1 className="mt-12 md:mt-16 lg:mt-20 mx-auto text-center font-bold text-on-accent text-6xl">
+      <div className="absolute">{/* <Blob /> */}</div>
+      <h1 className="mt-12 md:mt-16 lg:mt-20 mx-auto text-center font-bold text-accent text-6xl">
         404
       </h1>
     </div>

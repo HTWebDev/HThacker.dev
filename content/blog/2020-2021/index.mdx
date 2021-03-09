@@ -1,0 +1,69 @@
+---
+title: 2020 into 2021
+date: 2021-03-01
+published: true
+tags: ["life"]
+description: A sort summary of my work over the previous months and plotting my goals forward.
+toc: true
+seoImage: "og-card-blog-2020-into-2021.png"
+---
+
+import { ExtLink } from "../../../src/components/atoms.js"
+
+It's been a while since I've made a post on here. 2020 is through and I guess this is my Happy New Year post? It's the first on the new redesign.
+
+I had originally intended to stick with at the least, monthly posts. I got side tracked with other projects and that goal fell off. I might as well recap some of what I've been working on in the last few months.
+
+## Refining My Professional Appearance
+
+Since having gotten started, I've been developing how I market myself as frequently as I've been developing websites for my portfolio. "Refining My Professional Appearence" I titled this part, I don't just mean that physically, but also my digital footprint and my personal website. Building my portfolio has taught me a lot about what my taste in styling. It's also helped me better identify my strengths and weaknesses as an upcoming developer.
+
+I deleted no essential social media accounts to really cut the distractions down to a minimum. For what that even means in modern age. Moving forward I'm going to shift my digital presence to favor my career as a developer.
+
+## Brews On Broadway
+
+I starting working on a brewery startup website for my portfolio. It took a little longer than I expected to finish but I'm really proud of it and I learned a lot. I originally planed for it to be a relateively simple website to show off my skills as a developer. This was drawn out a bit as I kept finding new ways to improve on the design and eventually started adding animations. This lead to learning how to use Framer-Motion and GSAP.
+
+### Framer-Motion
+
+<ExtLink link="https://www.framer.com/api/motion/" newTab>Framer-Motion</ExtLink> is a Framer animation library API. "Framer provides helpers for advanced physics-based animation, complex touch-based gestures and common components for scrolling, paging and interface flows."
+
+This was the first animation library I tried and I was amazed at how simple it was to use. It really streamlines the process of simple animations; buttons, state changes, Etc. Usually animations can be done using only CSS but it can be a lengthy and sometimes complicated process to write out all of the CSS. Of course the better smoother animations use Javascript... which can take even more lines than CSS to solve. Framer-Motion fixes that.
+
+I did however run into some problems later on. Not with Framer-Motion itself but the realistic scope of it. Framer-Motion was built for mostly simple animations, "Start Here, Move Here, Expand when this happens..." however when more orchestrated animations need to be done thats where GSAP came in. I was trying to build a component where two hands with are moving in on one another from opposite sides of the screen. A "Cheers" animation. I was able to somewhat build it in Framer-Motion. But I wanted it to be timed using the users scrolling position on the page. I later learned that I needed to level up to a much beefier and robust library.
+
+### GSAP (GreenSock)
+
+Using <ExtLink link="https://greensock.com/" newTab>GSAP</ExtLink> was an exciting experience. Creating animations with it reminded me of playing with Legos as a kid. Most libraries offer that feeling I guess. I've also really enjoyed digesting the docs of the API's. Tedious at first, but solving problems one at a time is a really affective way to learn vs trying to digest everything at once to prepare for whatever it is you're about to do.
+
+GSAP gave me the creative control that I wanted when animating a website, without the complexity of creating a mess of javascript. I was able to complete my "Cheers" animation with the help of a GSAP plugin ScrollTrigger and GSAP's built in Timeline tool. Basically, I would specify the starting and ending conditions for the animation. These conditions would would be "Top Bottom" or "Center Center". To further explain. "Top Bottom" If I input this into the ```Start:''``` property, it means that the animation will begin when the ***Top*** of the selected element is a the **Bottom** of the screen.
+
+## Forward into 2021
+
+I've got a lot of goals for 2021. I want to travel more, Go camping, hiking. In general just live a little more. Maybe it's a way to compensate for the past year of being couped up. Winter has further exaserbated that cabin fever. Thankfully though it's almost spring and on top of that almost the end of the pandemic. A lot to look forward to and a lot of optimism. 
+
+I also have a lot that I want out of this year career wise. I want to raise the bar for myself. Work on my habits both as a human being and developer to better create a more balanced and efficient lifestyle and in turn a better workflow, higher productivity.
+
+### Focus On Freelancing
+
+I'm still slightly on the fence about whether I want to start out trying to work for a larger company or to go more of the Solo contractor "Freelance" route. I really admire the potential freedom and flexibility that freelancing would provide me with. I want to travel more. I think freelancing would better suit a lifestyle of such. Thats not to say however that I don't see many great benifits to pursueing a company or start up for employment. I'd certainly like to settle into one in a few years.
+
+I question the reality that I may be able to succeed on my own especially starting out. But I also really look forward to the challenge and learning expeirences that are ahead of me. I need to constantly focus on my client relations, refine my marketing skills. I also have yet to really find my niche, though I think I'm getting really close.
+
+Overall I'm trying to really focus on improving my strengths and refining the things that make my websites different from my competitors. I intend to deliver a polished and well thought out product to my clients and I'm going to further invest in the knowledge I need to acheive that standard.
+
+### Content Management Systems
+
+I've played around with CMS's a little and while I've not invested a ton of time into learning about them, I see their usefulness and I'm going to further incorperate them into my system as a developer. I'm probably going to start with this website within the next month or two. I'm excited to write out a post covering my learning experience with CMS's and my preference of one of the others.
+
+### Styling, Simplicity and Typography
+
+I guess every front-end web developer should have this goal at all times. But I want to really focus on the "Meat" of my websites. I need to expand my knowledge of creating font sizing systems and thoughtful coordination between fonts. Better UX through styling. Almost a complicated simplicity... Keep the nice functionality of a well developed application while reducing the overhead clutter on the screen and confusing the user or worse loosing their attention all together.
+
+## Conclusion
+
+As I said before. I've really slacked off on these blog posts. I know this is mostly just a journal for my own thoughts. I may be the only one who reads it. But at the end of the day I've slacked off on journal entries. I plan... in my pursuit of a more efficient workflow to keep up with my journal entries moving forward. I't's been a while since I've used my writing skills. I look forward to keeping track of my own progress as a Developer, Human Being and now as a Writer.
+
+Anyways...
+
+As always thank you for reading!

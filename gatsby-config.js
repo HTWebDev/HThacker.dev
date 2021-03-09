@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Jeff Jadulco`,
-    description: `Jeff Jadulco is a game and javascript developer`,
-    author: `Jeff Jadulco`,
+    title: `Hunter Thacker`,
+    description: `Front-End Web Developer`,
+    author: `Hunter Thacker`,
     siteUrl:
       process.env.DEV_ENV === 1
-        ? `https://dev.jeffjadulco.com`
-        : `https://jeffjadulco.com`,
+        ? `https://dev.HThacker.dev`
+        : `https://Hthacker.dev`,
     image: `/images/og-card.png`,
-    twitterUsername: `@jeffjadulco`,
+    twitterUsername: `@HTWebDev`,
   },
   plugins: [
     {
@@ -38,13 +38,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jeff Jadulco`,
-        short_name: `Jeff Jadulco`,
+        name: `Hunter Thacker`,
+        short_name: `Hunter Thacker`,
         start_url: `/`,
         background_color: `#2d3748`,
         theme_color: `#81E6D9`,
         display: `minimal-ui`,
-        icon: `src/assets/images/logo-512x512.png`,
+        icon: `src/assets/images/logo.png`,
       },
     },
     `gatsby-plugin-offline`,
@@ -53,8 +53,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://jeffjadulco.com",
-        sitemap: "https://jeffjadulco.com/sitemap.xml",
+        host: "https://hthacker.dev",
+        sitemap: "https://hthacker.dev/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
         env: {
           development: {

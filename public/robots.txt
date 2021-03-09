@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeffjadulco.com/sitemap.xml
+Host: https://jeffjadulco.com

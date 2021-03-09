@@ -11,7 +11,7 @@ const SkillGrid = ({
     <section className={`${className} mb-4`}>
       <Heading>{heading}</Heading>
       <p className="-mt-3 mb-8 text-tertiary">{description}</p>
-      <ul className="mt-3 grid md:grid-cols-2 col-gap-10 row-gap-10">
+      <ul className="mt-3 grid md:grid-cols-2 col-gap-10 row-gap-10 ">
         {categories.map(category => {
           return (
             <li key={category.title}>
@@ -19,7 +19,7 @@ const SkillGrid = ({
                 <h3 className="text-xl font-semibold text-primary group-hover:text-accent">
                   {category.title}
                 </h3>
-                <ul className="mt-1 space-y-2">
+                <ul className="mt-1 space-y-2 list-disc list-inside">
                   {category.skills.map(skill => {
                     return <li className="text-tertiary">{skill}</li>
                   })}

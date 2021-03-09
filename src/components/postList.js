@@ -51,7 +51,7 @@ const PostList = ({ showHeading }) => {
     <section className="">
       {showHeading && (
         <h2 className="mt-64 font-normal text-accent tracking-widestest">
-          LATEST WRITINGS
+          FEATURED POSTS
         </h2>
       )}
       <ul className="mt-3 divide-y divide-subtle">
