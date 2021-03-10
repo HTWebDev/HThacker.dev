@@ -25,6 +25,7 @@ const Image = ({ path }) => {
       }
     }
   `)
+  //
 
   return (
     <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Avatar" />

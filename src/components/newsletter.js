@@ -8,7 +8,7 @@ export const Newsletter = () => {
         <h1 className="px-4 text-3xl font-semibold text-center text-accent">
           Want more?{" "}
         </h1>
-        <p className="px-4 mx-auto mt-4 text-center text-secondary break-all">
+        <p className="px-4 mx-auto mt-4 text-center text-secondary break-normal">
           Subscribe to get my latest content via email.
         </p>
         <p className="mt-0 md:mt-1 text-center text-secondary">

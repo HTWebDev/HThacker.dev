@@ -32,5 +32,6 @@ const SkillGrid = ({
     </section>
   )
 }
+//
 
 export default SkillGrid

@@ -3,7 +3,7 @@ import { withA11y } from "@storybook/addon-a11y"
 import { NavLink } from "../src/components/atoms"
 
 export default {
-  title: "Nav Link",
+  title: "Nav link",
   component: NavLink,
   decorators: [withA11y],
 }

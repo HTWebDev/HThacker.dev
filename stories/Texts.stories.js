@@ -11,8 +11,7 @@ export const TextHeading = _ => <Heading>Heading</Heading>
 export const TextParagraph = _ => (
   <Paragraph>
     Dolor nisi incididunt Lorem tempor pariatur esse ut ipsum. Veniam nisi ex
-    Lorem proident pariatur nisi mollit amet. Lorem est ipsum dolore dolor
-    cillum.
+    Lorem proident pariatur nisi mollit amet.
   </Paragraph>
 )
 export const TextStrong = _ => <Strong>This text is strong!</Strong>

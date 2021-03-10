@@ -19,6 +19,7 @@ const TocEntry = ({ items, active, depth = 0 }) => {
     )
   })
 }
+//
 
 const getTocEntries = items => {
   let entries = []

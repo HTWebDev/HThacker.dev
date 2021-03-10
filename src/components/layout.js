@@ -20,6 +20,7 @@ const Layout = ({ children, activePage, footer = true }) => {
     </>
   )
 }
+//
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
