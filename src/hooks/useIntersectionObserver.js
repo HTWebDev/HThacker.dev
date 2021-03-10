@@ -4,6 +4,7 @@ function useIntersectNode(items, rootMargin, threshold) {
   const [activeNode, setActiveNode] = useState(null)
 
   let observer = useRef(null)
+  //
 
   useEffect(
     _ => {

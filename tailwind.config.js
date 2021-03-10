@@ -20,7 +20,6 @@ module.exports = {
         "-96": "-24rem",
         "-120": "-30rem",
       },
-      //
       fontFamily: {
         sans: [
           "Inter",
