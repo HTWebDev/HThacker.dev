@@ -10,8 +10,6 @@ export const Newsletter = () => {
         </h1>
         <p className="px-4 mx-auto mt-4 text-center text-secondary break-all">
           Subscribe to get my latest content via email.
-          <br className="md:hidden" />
-           I won’t send you spam, and you can unsubscribe at any time. 
         </p>
         <p className="mt-0 md:mt-1 text-center text-secondary">
           No spam and feel free to unsubscribe any time.

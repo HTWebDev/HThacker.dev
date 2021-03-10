@@ -13,7 +13,7 @@ export const Contact = () => {
           feedback?
         </p>
         <p className="px-4 mt-1 text-center text-secondary">
-          Feel free to also reach on :{" "}
+          Feel free to also reach me on :{" "}
           <ExtLink link="https://github.com/HTWebDev" newTab>
             GitHub
           </ExtLink>
