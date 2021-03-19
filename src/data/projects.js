@@ -1,7 +1,7 @@
 export default [
   {
-    slug: "#",
-    title: "Brews On Broadway",
+    slug: "https://brewsonbroad.netlify.app/",
+    title: "Brews",
     description:
       "Brewery website demo. Built using React/GatsbyJS/GSAP/Framer-Motion",
     year: "2021",

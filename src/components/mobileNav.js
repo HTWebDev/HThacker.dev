@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import ThemeToggle from "./themeToggle"
+import { motion } from "framer-motion"
 
 const MobileNav = () => {
   const [navShow, setNavShow] = React.useState(false)
@@ -18,7 +19,6 @@ const MobileNav = () => {
     },
     [navShow]
   )
-
   return (
     <div className="sm:hidden text-xl" aria-hidden={!navShow}>
       <button

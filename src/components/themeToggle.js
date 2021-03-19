@@ -1,6 +1,7 @@
 import React from "react"
 import { ThemeContext } from "../context/themeContext"
 import { trackCustomEvent } from "gatsby-plugin-google-analytics"
+import { JumpSvg } from "./atoms"
 
 const ThemeToggle = ({ className }) => {
   const { theme, setTheme } = React.useContext(ThemeContext)

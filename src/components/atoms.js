@@ -1,4 +1,5 @@
 import React from "react"
+import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const NavLink = ({ to, children, title = "Link", selected = false }) => {
@@ -148,3 +149,13 @@ export const Callout = ({ children }) => {
     </aside>
   )
 }
+
+//=============Style Components=============
+
+export const Jump = styled.svg`
+  *:hover > & {
+    animation: jump 0.3s forwards;
+    transform-origin: center;
+    transition: all ease;
+  }
+`
