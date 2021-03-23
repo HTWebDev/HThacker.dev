@@ -28,7 +28,7 @@ const HeroWrapper = styled.section`
   img {
     border-radius: 100%;
     background-color: var(--color-fill-secondary);
-    border: 6px solid var(--color-fill-secondary);
+    border: 4px solid var(--color-fill-secondary);
   }
 `
 

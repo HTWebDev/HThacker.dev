@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
+import { styled } from "styled-components"
 import ThemeToggle from "./themeToggle"
-import { motion } from "framer-motion"
 
 const MobileNav = () => {
   const [navShow, setNavShow] = React.useState(false)

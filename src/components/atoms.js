@@ -149,13 +149,3 @@ export const Callout = ({ children }) => {
     </aside>
   )
 }
-
-//=============Style Components=============
-
-export const Jump = styled.svg`
-  *:hover > & {
-    animation: jump 0.3s forwards;
-    transform-origin: center;
-    transition: all ease;
-  }
-`
