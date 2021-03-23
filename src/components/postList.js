@@ -50,7 +50,7 @@ const PostList = ({ showHeading }) => {
   return (
     <section className="">
       {showHeading && (
-        <h2 className="mt-64 font-normal text-accent tracking-widestest">
+        <h2 className="mt-64 font-semibold text-xl text-accent tracking-widestest">
           FEATURED POSTS
         </h2>
       )}

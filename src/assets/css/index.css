@@ -88,7 +88,7 @@ body {
   overflow-x: hidden;
   background-attachment: fixed;
   background-color: var(--color-bg-primary);
-  background-size: cover;
+  background-size: 500px 500px;
   color: var(--color-text-primary);
   @apply antialiased;
 
