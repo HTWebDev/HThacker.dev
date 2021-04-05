@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import { styled } from "styled-components"
+import styled from "styled-components"
 import ThemeToggle from "./themeToggle"
 
 const MobileNav = () => {
@@ -47,11 +47,11 @@ const MobileNav = () => {
         )}
       </button>
       {navShow && (
-        <div className="relative z-10">
+        <StyledDiv className=" transform translate-x-full relative z-10">
           <div className="w-full h-screen fixed bg-primary opacity-90"></div>
           <button
             type="button"
-            className="w-full h-screen fixed cursor-auto"
+            className="w-full h-screen absolute cursor-auto"
             onClick={e => {
               setNavShow(!navShow)
             }}
@@ -71,10 +71,12 @@ const MobileNav = () => {
             </div>
             <ThemeToggle />
           </nav>
-        </div>
+        </StyledDiv>
       )}
     </div>
   )
 }
+
+const StyledDiv = styled.div``
 
 export default MobileNav

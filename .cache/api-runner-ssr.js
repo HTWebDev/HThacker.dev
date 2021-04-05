@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/home/noctrem/Workspace/Port/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"trackingId":"UA-185645032-1"},
     },{
       plugin: require('/home/noctrem/Workspace/Port/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
