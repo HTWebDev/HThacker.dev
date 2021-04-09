@@ -47,7 +47,7 @@ const MobileNav = () => {
         )}
       </button>
       {navShow && (
-        <StyledDiv className=" transform translate-x-full relative z-10">
+        <div className=" relative z-10">
           <div className="w-full h-screen fixed bg-primary opacity-90"></div>
           <button
             type="button"
@@ -71,12 +71,10 @@ const MobileNav = () => {
             </div>
             <ThemeToggle />
           </nav>
-        </StyledDiv>
+        </div>
       )}
     </div>
   )
 }
-
-const StyledDiv = styled.div``
 
 export default MobileNav
